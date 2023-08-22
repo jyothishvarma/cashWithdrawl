@@ -1,0 +1,90 @@
+/* Write your CSS here */
+
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cash-withdrawl-form {
+  height: 500px;
+  width: 500px;
+  background-color: #150b3e;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.person-details-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.first-letter {
+  background-color: #c7d2fe;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  padding: 20px;
+  padding-left: 25px;
+  font-family: roboto;
+  font-weight: 500;
+}
+
+.name {
+  color: #d4d2db;
+  font-family: roboto;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-top: 36px;
+  font-size: 20px;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.balance-text {
+  font-family: roboto;
+  color: #585076;
+  font-size: 18px;
+  font-weight: 500;
+}
+.balance {
+  font-family: roboto;
+  font-weight: 600;
+  color: #d4d2db;
+  font-size: 26px;
+}
+.in-rupees-text {
+  font-family: roboto;
+  color: #585076;
+  font-size: 12px;
+  font-weight: 500;
+}
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+}
+.withdraw-head {
+  font-family: roboto;
+  font-size: 28px;
+  color: #d4d2db;
+}
+.withdraw-text {
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 16px;
+  color: #585076;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 16px;
+}
